@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mama Zone</title>
+  <meta name="description" content="Secret cuddle corner for Mama." />
+  <style>
+    :root{
+      --bg:#fff3f8; --ink:#2b1a22; --accent:#ff80b5; --soft:#ffe6f0;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background:var(--bg); color:var(--ink);
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans";
+      display:flex; align-items:center; justify-content:center; padding:24px;
+    }
+    .wrap{
+      background:var(--soft); padding:32px 28px; border-radius:20px; text-align:center;
+      max-width:600px; width:100%; box-shadow:0 12px 36px rgba(0,0,0,.15)
+    }
+    h1{margin:0 0 12px; font-size:1.9rem}
+    .heart{
+      font-size:2.2rem; animation:beat 1.1s ease-in-out infinite
+    }
+    @keyframes beat{0%,100%{transform:scale(1)} 50%{transform:scale(1.2)}}
+    p{margin:0 0 12px}
+    a{display:inline-block; margin-top:14px; text-decoration:none; font-weight:700;
+      color:white; background:linear-gradient(135deg,var(--accent),#ffb5d6); padding:12px 20px; border-radius:12px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>💖 Hi Mama 💖</h1>
+    <p>This is your secret cuddle corner.</p>
+    <p class="heart">🐾💓🐾</p>
+    <p>Whenever you get lost, remember: tails always find their way back to you.</p>
+    <a href="/">← Back to Noodle’s Den</a>
+  </main>
+</body>
+</html>
